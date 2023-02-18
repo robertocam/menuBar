@@ -87,8 +87,8 @@ footer {
   padding-bottom: 1rem;
 }
 footer img {
-  width: 8rem;
-  height: 4rem;
+  width: 6rem;
+  height: 3rem;
   padding: 1rem;
 }
 footer div input, footer div button {
@@ -100,6 +100,18 @@ footer div input, footer div button {
   padding: .25rem;
   margin: .25rem
 }
-footer div button{
+footer div input {
+  width: 120px;
+  text-align: center;
+}
+footer div button {
   outline: .125rem solid #995000;
+}
+.inline {
+  width: 250px;
+  border: #2D2C2A ipx solid;
+  display: flex;
+  justify-content: flex-start;
+  gap: .5rem;
+  padding: .3rem 0;
 }
